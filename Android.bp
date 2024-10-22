@@ -1,0 +1,19 @@
+filegroup {
+    name: "resource-definitions",
+    srcs: [
+        "json_definitions/profiles-resources.json",
+    ],
+    visibility: [
+        "//packages/modules/HealthFitness:__subpackages__",
+    ],
+}
+
+filegroup {
+    name: "type-definitions",
+    srcs: [
+        "json_definitions/profiles-types.json",
+    ],
+    visibility: [
+        "//packages/modules/HealthFitness:__subpackages__",
+    ],
+}
